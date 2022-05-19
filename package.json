@@ -24,7 +24,7 @@
     "name": "Traysi"
   },
   "bugs": {
-    "url": "https://github.com/RavenCommunity/kawpow-stratum-pool/issues"
+    "url": "https://github.com/RavenCommunity/kawpow-stratum-pool/issues",
   },
   "bundleDependencies": false,
   "contributors": [
@@ -51,7 +51,7 @@
     "bitcoinjs-lib": "git+https://github.com/bitcoinjs/bitcoinjs-lib.git",
     "merkle-bitcoin": "git+https://github.com/boolpath/merkle-bitcoin.git",
     "promise": "*",
-    "sha3": "git+https://github.com/phusion/node-sha3.git"
+    "sha3": "git+https://github.com/phusion/node-sha3.git",
     "3.npm": "^1.0.0",
         "asn1": "^0.2.4",
         "async": "^2.6.3",
