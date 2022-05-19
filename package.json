@@ -1,52 +1,41 @@
 {
-  "_from": "git+https://github.com/RavenCommunity/kawpow-stratum-pool.git",
-  "_id": "stratum-pool@0.1.6",
-  "_inBundle": false,
-  "_location": "/stratum-pool",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "git",
-    "raw": "stratum-pool@git+https://github.com/RavenCommunity/kawpow-stratum-pool.git",
-    "name": "kawpow-stratum-pool",
-    "escapedName": "kawpow-stratum-pool",
-    "rawSpec": "git+https://github.com/RavenCommunity/kawpow-stratum-pool.git",
-    "saveSpec": "git+https://github.com/RavenCommunity/kawpow-stratum-pool.git",
-    "fetchSpec": "https://github.com/RavenCommunity/kawpow-stratum-pool.git",
-    "gitCommittish": null
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "git+https://github.com/RavenCommunity/kawpow-stratum-pool.git#c66ba109e7de88edc46dd70f36aa9c7cea7d7add",
-  "_spec": "stratum-pool@git+https://github.com/RavenCommunity/kawpow-stratum-pool.git",
-  "_where": "",
-  "author": {
-    "name": "Traysi"
-  },
-  "bugs": {
-    "url": "https://github.com/RavenCommunity/kawpow-stratum-pool/issues"
-  },
-  "bundleDependencies": false,
-  "contributors": [
-    {
-      "name": "Jeremy Anderson"
+    "name": "KawPoWNOMP",
+    "version": "1.1.5",
+    "description": "An extremely efficient, highly scalable, KawPoW algorithm mining pool",
+    "keywords": [
+        "stratum",
+        "mining",
+        "pool",
+        "server",
+        "poolserver",
+        "Ravencoin",
+        "Sato",
+        "Zelantus",
+        "Splendidcoin",
+        "KawPoW"
+    ],
+    "homepage": "https://github.com/MiningCryptoLive/ravencoin-pool",
+    "bugs": {
+        "url": "https://github.com/MiningCryptoLive-ravencoin-pool/issues"
     },
-    {
-      "name": "Matthew Little"
+    "license": "GPL-2.0",
+    "author": "MCL",
+    "contributors": [
+        "leshacat",
+        "devnulled",
+        "foxer666",
+        "vekexasia",
+        "TheSeven",
+        "Kris Klosterman"
+    ],
+    "main": "init.js",
+    "bin": {
+        "block-notify": "./scripts/blockNotify.js"
     },
-    {
-      "name": "vekexasia"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/phoenixmax-ravencoin-pool.git"
     },
-    {
-      "name": "TheSeven"
-    },
-    {
-      "name": "fellu"
-    },
-    {
-      "name": "anduck"
-    }
-  ],
   "dependencies": {
     "bitcoinjs-lib": "git+https://github.com/bitcoinjs/bitcoinjs-lib.git",
     "merkle-bitcoin": "git+https://github.com/boolpath/merkle-bitcoin.git",
