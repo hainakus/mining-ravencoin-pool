@@ -8,7 +8,7 @@
     "type": "git",
     "raw": "stratum-pool@git+https://github.com/RavenCommunity/kawpow-stratum-pool.git",
     "name": "kawpow-stratum-pool",
-    "escapedName": "stratum-pool",
+    "escapedName": "kawpow-stratum-pool",
     "rawSpec": "git+https://github.com/RavenCommunity/kawpow-stratum-pool.git",
     "saveSpec": "git+https://github.com/RavenCommunity/kawpow-stratum-pool.git",
     "fetchSpec": "https://github.com/RavenCommunity/kawpow-stratum-pool.git",
