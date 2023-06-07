@@ -88,7 +88,7 @@
         "winston-transport": "^4.3.0"
   },
  
-  "deprecated": false,
+  "deprecated": "false",
   "description": "High performance Stratum poolserver in Node.js",
   "engines": {
     "node": ">=8.17.0"
